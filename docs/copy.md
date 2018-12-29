@@ -122,3 +122,5 @@ function deepCopy(obj) {
     return result
 }
 ```
+## js继承的多种方式
+(https://wuhaohao1234.github.io/javascriptInterview/#/inherit)
