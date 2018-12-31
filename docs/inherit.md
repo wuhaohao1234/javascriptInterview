@@ -41,7 +41,9 @@ console.log(child2.names)//[ 'html', 'css' ]
 2. Child可以向Parent传参数
 缺点:
 1. 方法都在构造函数中定义，每次创建实例都会创建一遍方法。
+
 ### 3.组合式继承
+
 ```
 function Parent(name) {
     this.names = ['html','css']
@@ -63,9 +65,12 @@ var child2 = new Child('child2',22)
 child1.getNames()//[ 'html', 'css', 'child1', 'js' ]
 child2.getNames()//[ 'html', 'css', 'child2' ]
 ```
+
 优点:
 1. 结合原型链继承与构造函数继承，最常用的继承方式
+
 ### 4.es6中的继承
+
 ```
 class Parent {
     constructor(names) {
