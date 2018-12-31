@@ -88,7 +88,9 @@ console.log(obj) //{name:'obj',age:18}
 ### 深拷贝
 
 * Json.parse
+
 **先转为字符串再转为代码,不适合于函数**
+
 ```
 var arr = ['old', 1, true, ['old1', 'old2'], { old: 1 }]
 
